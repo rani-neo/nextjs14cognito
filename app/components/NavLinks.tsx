@@ -9,6 +9,14 @@ import amplifyConfig from '../utils/aws/config';
 Amplify.configure(amplifyConfig);
 
 const customSignUpFields = [
+      {
+        label: 'Email',
+        key: 'email',
+        required: true,
+        type: 'email',
+        placeholder: 'Enter your Email',
+        displayOrder: 0, // Change the display order as needed
+    },
     {
         label: 'Username',
         key: 'username',

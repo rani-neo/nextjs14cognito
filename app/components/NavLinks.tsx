@@ -9,14 +9,6 @@ import amplifyConfig from '../utils/aws/config';
 Amplify.configure(amplifyConfig);
 
 const customSignUpFields = [
-      {
-        label: 'Email',
-        key: 'email',
-        required: true,
-        type: 'email',
-        placeholder: 'Enter your Email',
-        displayOrder: 0, // Change the display order as needed
-    },
     {
         label: 'Username',
         key: 'username',
@@ -39,7 +31,7 @@ const customSignUpFields = [
         required: true,
         type: 'Password',
         placeholder: 'Please Confirm your Password',
-        displayOrder:3,
+        displayOrder: 3,
     },
     {
         label: 'Family Name',
@@ -57,6 +49,52 @@ const customSignUpFields = [
         placeholder: 'Enter your first name',
         displayOrder: 5,
     },
+    {
+        "label": "Email Address",
+        "key": "email",
+        "required": true,
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "displayOrder": 6
+    },
+
+    {
+        "label": "Email Address",
+        "key": "email",
+        "required": true,
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "displayOrder": 6
+    },
+
+    {
+        "label": "Email Address",
+        "key": "email",
+        "required": true,
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "displayOrder": 6
+    },
+
+    {
+        "label": "Email Address",
+        "key": "email",
+        "required": true,
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "displayOrder": 6
+    },
+
+    {
+        "label": "Email Address",
+        "key": "email",
+        "required": true,
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "displayOrder": 6
+    }
+
+
 
     // ... add any other custom fields
 ];
